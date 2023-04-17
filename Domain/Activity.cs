@@ -7,6 +7,8 @@ namespace Domain
 {
     public class Activity
     {
+        public object activity;
+
         public Guid Id { get; set; }
         public string Title { get; set; }
         public DateTime Date { get; set; }
@@ -14,5 +16,6 @@ namespace Domain
         public string Category { get; set; }
         public string City { get; set; }
         public string Venue { get; set; }
+        // public object Activity { get; set; }
     }
 }
